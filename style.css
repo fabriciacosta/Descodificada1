@@ -1,0 +1,32 @@
+*{
+    margin: -2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Configuração da div no geral*/
+div{
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}
+.amarelo{
+    background-color: yellow;
+}
+/*Centralização dos elementos*/
+section{
+    display: flex;
+    justify-content: center;
+}
+#borda{
+    border: 1px solid black;
+}
